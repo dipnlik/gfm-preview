@@ -16,6 +16,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $req);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+curl_setopt($ch, CURLOPT_USERAGENT, 'GitHub Flavored Markdown Preview.tmbundle (https://github.com/dipnlik/gfm-preview)');
 $gfm = curl_exec($ch);
 curl_close($ch);
 
