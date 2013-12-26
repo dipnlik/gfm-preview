@@ -1,6 +1,13 @@
 GitHub Flavored Markdown Preview
 ================================
 
+Fork description
+----------------
+
+* TextMate 2 support
+* GitHub API v3 support
+* Updated stylesheets
+
 Introduction
 ------------
 
@@ -17,7 +24,7 @@ The best way to install the Plugin is to clone it. TextMate 1.x bundles live in 
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/claylo/gfm-preview.git "GitHub Flavored Markdown.tmbundle"
+    git clone git://github.com/dipnlik/gfm-preview.git "GitHub Flavored Markdown.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
     
 Screen Shot
