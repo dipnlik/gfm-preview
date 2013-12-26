@@ -65,7 +65,7 @@ div {
     overflow: hidden;
     height: auto;
     width: 914px;
-    margin: -20px auto 0;
+    margin: -20px auto 20px;
     background-color: white;
     -webkit-box-shadow: 0 0 5px #888;
 }
