@@ -19,7 +19,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 $gfm = curl_exec($ch);
 curl_close($ch);
 
-$stylesheet = file_get_contents(__DIR__.'/../support/style.css');
+$stylesheet = file_get_contents(__DIR__.'/../assets/style.css');
 
 $output = <<<EOF
 <!DOCTYPE html>

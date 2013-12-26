@@ -5,10 +5,11 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># GitHub Flavored Markdown Preview for TextMate
+	<string>#!/usr/bin/env bash
+# GitHub Flavored Markdown Preview for TextMate
 # Copyright 2012 Clay Loveless &lt;clay@php.net&gt;
 # License: MIT http://claylo.mit-license.org/2012/
-${TM_PHP:=php} "$TM_BUNDLE_PATH"/bin/gfm.php</string>
+${TM_PHP:=php} "$TM_BUNDLE_SUPPORT"/bin/gfm.php</string>
 	<key>input</key>
 	<string>document</string>
 	<key>name</key>
