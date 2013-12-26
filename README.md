@@ -44,4 +44,4 @@ Thanks to the GitHub team for GitHub Flavored Markdown itself, as well as for gr
 
 Thanks to [MediaLoot](http://www.medialoot.com/) for the [Awake](http://medialoot.com/item/awake-free-web-font/) font.
 
-Finally, thanks to [Allen Odgaard](https://github.com/sorbits) for TextMate.
+Finally, thanks to [Allan Odgaard](https://github.com/sorbits) for TextMate.
